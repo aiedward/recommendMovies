@@ -3,10 +3,10 @@ Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1
 Date: 2015-12-29
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Stephen Jacob
+Maintainer: stephen.a.jacob@gmail.com
+Description: This application recommends movies based on a user's ratings.
+License: Apache License 2.0
 LazyData: TRUE
 RoxygenNote: 5.0.0
 Imports:
