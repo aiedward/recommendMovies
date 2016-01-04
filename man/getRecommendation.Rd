@@ -4,16 +4,17 @@
 \alias{getRecommendation}
 \title{Recommend movies}
 \usage{
-getRecommendation(jsonString)
+getRecommendation(movies, ratings)
 }
 \arguments{
-\item{jsonString}{data passed on as \code{newdata} to \code{\link{predict}}}
+\item{movies}{data passed on to \code{\link{predict}}}
+
+\item{ratings}{data passed on to \code{\link{predict}}}
 }
 \description{
 Simple model to recommend movies
 }
 \examples{
-mydata <- "[[34,5],[87, 2], [236, 3], [312, 4], [397, 1], [650, 2]]"
-getRecommendation(mydata)
+moviesP <- "[34, 87, 236, 312, 397, 650]"
 }
 

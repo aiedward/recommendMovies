@@ -4,10 +4,10 @@ Title: What the Package Does (Title Case)
 Version: 0.1
 Date: 2015-12-29
 Author: Stephen Jacob
-Maintainer: stephen.a.jacob@gmail.com
+Maintainer: Stephen Jacob <stephen.a.jacob@gmail.com>
 Description: This application recommends movies based on a user's ratings.
 License: Apache License 2.0
 LazyData: TRUE
 RoxygenNote: 5.0.0
 Imports:
-    recommenderlab,reshape2,rjson,Matrix
+    recommenderlab, reshape2, Matrix
